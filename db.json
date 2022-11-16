@@ -35,7 +35,7 @@
     ],
     "patients": [
         {
-            "id": 1
+            "id": 1,
             "name": "João",
             "BirthdayDate": "11/12/2000",
             "CPF": "111111111",
@@ -43,7 +43,7 @@
             "address": "Rua 1"
         },
         {
-            "id": 2
+            "id": 2,
             "name": "Maria",
             "BirthdayDate": "11/12/2000",
             "CPF": "111111111",
@@ -51,7 +51,7 @@
             "address": "Rua 2"
         },
         {
-            "id": 3
+            "id": 3,
             "name": "Pedro",
             "BirthdayDate": "11/12/2000",
             "CPF": "111111111",
@@ -59,7 +59,7 @@
             "address": "Rua 3"
         },
         {
-            "id": 4 
+            "id": 4,
             "name": "Antônio",
             "BirthdayDate": "11/12/2000",
             "CPF": "111111111",
@@ -72,6 +72,7 @@
             "id": 1,
             "patient": [
                 {
+                    "id": 1,
                     "name": "João",
                     "BirthdayDate": "11/12/2000",
                     "CPF": "111111111",
@@ -81,7 +82,8 @@
             ],
             "doctor": [
                 {
-                    "crm": "11",
+                    "id": 1,
+                    "crm": "1",
                     "name": "Ronaldo Garibaldo",
                     "skill": "ortopedia",
                     "phone": "9999-9999",
@@ -94,7 +96,7 @@
             "id": 2,
             "patient": [
                 {
-                    "id": 2
+                    "id": 2,
                     "name": "Maria",
                     "BirthdayDate": "11/12/2000",
                     "CPF": "111111111",
