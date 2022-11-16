@@ -1,33 +1,86 @@
 {
- "doctors": [
-    {"crm": "11", "name": "Ronaldo Garibaldo", "skill": "ortopedia", "phone": "9999-9999", "address": "Rua do Pão"},
-    {"crm": "22", "name": "Adenor Costa", "skill": "ortopedia", "phone": "8888-9999", "address": "Rua do Açucar"},
-    {"crm": "33", "name": "Guilherme Benatti", "skill": "neurologia", "phone": "7777-9999", "address": "Rua do Morro"},
-    {"crm": "44", "name": "John Marston", "skill": "pediatria", "phone": "6666-9999", "address": "Avenida do Louro"},
- ]
- "patients": [
-  {"name": "João", "BirthdayDate": "11/12/2000", "CPF": "111111111", "phone": "9999-9999", "address": "Rua 1"},
-  {"name": "Maria", "BirthdayDate": "11/12/2000", "CPF": "111111111", "phone": "9999-9999", "address": "Rua 2"},
-  {"name": "Pedro", "BirthdayDate": "11/12/2000", "CPF": "111111111", "phone": "9999-9999", "address": "Rua 3"},
-  {"name": "Antônio", "BirthdayDate": "11/12/2000", "CPF": "111111111", "phone": "9999-9999", "address": "Rua 4"},
- ]
- "consultation": [
-  {
-   "id": 1, 
-   "patient": [
-    "name": "João", 
-    "BirthdayDate": "11/12/2000",
-    "CPF": "111111111", 
-    "phone": "9999-9999", 
-    "address": "Rua 1"
-  ],
-   "doctor": [
-    "crm": "11", 
-    "name": "Ronaldo Garibaldo", 
-    "skill": "ortopedia", 
-    "phone": "9999-9999", 
-    "address": "Rua do Pão"
-  ], 
-   "date": "string"},
- ]
+    "doctors": [
+        {
+            "crm": "11",
+            "name": "Ronaldo Garibaldo",
+            "skill": "ortopedia",
+            "phone": "9999-9999",
+            "address": "Rua do Pão"
+        },
+        {
+            "crm": "22",
+            "name": "Adenor Costa",
+            "skill": "ortopedia",
+            "phone": "8888-9999",
+            "address": "Rua do Açucar"
+        },
+        {
+            "crm": "33",
+            "name": "Guilherme Benatti",
+            "skill": "neurologia",
+            "phone": "7777-9999",
+            "address": "Rua do Morro"
+        },
+        {
+            "crm": "44",
+            "name": "John Marston",
+            "skill": "pediatria",
+            "phone": "6666-9999",
+            "address": "Avenida do Louro"
+        }
+    ],
+    "patients": [
+        {
+            "name": "João",
+            "BirthdayDate": "11/12/2000",
+            "CPF": "111111111",
+            "phone": "9999-9999",
+            "address": "Rua 1"
+        },
+        {
+            "name": "Maria",
+            "BirthdayDate": "11/12/2000",
+            "CPF": "111111111",
+            "phone": "9999-9999",
+            "address": "Rua 2"
+        },
+        {
+            "name": "Pedro",
+            "BirthdayDate": "11/12/2000",
+            "CPF": "111111111",
+            "phone": "9999-9999",
+            "address": "Rua 3"
+        },
+        {
+            "name": "Antônio",
+            "BirthdayDate": "11/12/2000",
+            "CPF": "111111111",
+            "phone": "9999-9999",
+            "address": "Rua 4"
+        }
+    ],
+    "consultation": [
+        {
+            "id": 1,
+            "patient": [
+                {
+                    "name": "João",
+                    "BirthdayDate": "11/12/2000",
+                    "CPF": "111111111",
+                    "phone": "9999-9999",
+                    "address": "Rua 1"
+                }
+            ],
+            "doctor": [
+                {
+                    "crm": "11",
+                    "name": "Ronaldo Garibaldo",
+                    "skill": "ortopedia",
+                    "phone": "9999-9999",
+                    "address": "Rua do Pão"
+                }
+            ],
+            "date": "string"
+        }
+    ]
 }
