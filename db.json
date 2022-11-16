@@ -12,13 +12,16 @@
   {"name": "Antônio", "BirthdayDate": "11/12/2000", "CPF": "111111111", "phone": "9999-9999", "address": "Rua 4"},
  ]
  "consultation": [
-  {"id": 1, "patient": [
+  {
+   "id": 1, 
+   "patient": [
     "name": "João", 
     "BirthdayDate": "11/12/2000",
     "CPF": "111111111", 
     "phone": "9999-9999", 
-    "address": "Rua 1"}
-  ], "doctor": [
+    "address": "Rua 1"
+  ],
+   "doctor": [
     "crm": "11", 
     "name": "Ronaldo Garibaldo", 
     "skill": "ortopedia", 
