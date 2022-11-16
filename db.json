@@ -90,7 +90,7 @@
                     "address": "Rua do Pão"
                 }
             ],
-            "date": "string"
+            "date": "11/11/2022"
         },
         {
             "id": 2,
@@ -114,7 +114,7 @@
                     "address": "Rua do Açucar"
                 }
             ],
-            "date": "string"
+            "date": "11/11/2022"
         }
     ]
 }
